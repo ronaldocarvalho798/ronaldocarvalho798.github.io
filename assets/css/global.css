@@ -184,6 +184,11 @@
 }
 
 @media (min-width: 1400px) {
+
+    h1{
+        font-size: 6.25rem;
+    }
+
     h2 {
         font-size: 4.5rem;
     }
