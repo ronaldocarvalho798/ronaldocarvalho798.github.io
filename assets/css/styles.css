@@ -3,6 +3,7 @@
 
 :root, :root[data-theme='dark'] {
     --primary-color: #F0F0F0;
+    --color-gitfind-animation: linear-gradient(90deg, #fff, #8d2df4, #fff);
     --color-spider-animation: linear-gradient(90deg, #fff, #cd2a45, #fff);
     --color-spotify-animation: linear-gradient(90deg, #fff,#3ae175,#3ae175,#fff);
     --color-stranger-animation: linear-gradient(90deg,#fff,#d33333,#fff);
@@ -20,6 +21,7 @@
 
 :root[data-theme='light'] {
     --primary-color: #0B0B0F;
+    --color-gitfind-animation: linear-gradient(90deg, #000000, #8d2df4, #000000);
     --color-spider-animation: linear-gradient(90deg, #000000,  #cd2a45, #000000);
     --color-spotify-animation: linear-gradient(90deg, #000000,#3ae175,#000000);
     --color-stranger-animation: linear-gradient(90deg,#000000,#d33333,#000000);
@@ -427,6 +429,13 @@ a{
     text-transform: none;
 }
 
+#text-gitfind{
+    background: var(--color-gitfind-animation);
+    background-size: 200% 100%;
+    animation: degrade 5s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #text-spiderman{
     background: var(--color-spider-animation);
     background-size: 200% 100%;
