@@ -299,6 +299,7 @@ main {
 .card__body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 1rem;
 }
