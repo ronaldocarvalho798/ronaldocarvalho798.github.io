@@ -118,6 +118,7 @@
     }
     .card__cover {
         width: 55%;
+        height: 375px;
     }
     .projects__card.card--reverse {
         flex-direction: row-reverse;
