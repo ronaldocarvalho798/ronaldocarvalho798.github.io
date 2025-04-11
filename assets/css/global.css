@@ -36,7 +36,6 @@
     border-radius: 50rem;
   }
 
-
 @media (max-width:500px) {
     main{
         margin-top: 80px;
@@ -46,7 +45,18 @@
         margin-top: 250px;
         margin-bottom: 50px;
     }
+
+    .technologies__list{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
+
+@media (max-width:400px) {
+    .technologies__list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}  
 
 @media (min-width:768px) {
 
