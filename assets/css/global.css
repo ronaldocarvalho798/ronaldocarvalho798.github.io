@@ -55,7 +55,7 @@
 }
 
 @media (max-width:400px) {
-    .technologies__list{
+    #list-icons{
         grid-template-columns: repeat(3, 1fr);
     }
 }  
