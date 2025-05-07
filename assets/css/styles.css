@@ -236,7 +236,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 1.25rem;
-    padding: 6.25rem 1rem 2rem;
+    padding: 3rem 1rem 3rem;
     background: var(--secondary-bg-color);
 }
 
@@ -244,7 +244,7 @@ main {
     font-size: 2rem;
     text-transform: none;
     letter-spacing: normal;
-    text-align: start;
+    text-align: center;
 }
 
 .technologies__list {

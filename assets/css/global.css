@@ -77,7 +77,7 @@
     }
 
     .technologies {
-        padding: 6.25rem 6rem 2rem 6rem;
+        padding: 5rem 6rem 5rem;
         margin-top: 150px;
     }
 
@@ -172,13 +172,14 @@
     }
 
     .technologies{
-        padding: 10rem 6rem 4rem;
+        padding: 5rem 6rem 5rem;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .technologies h2{
         font-size: 3rem;
+        text-align: start;
         width: 90%;
     }
 
@@ -216,7 +217,10 @@
     main {
         padding: 12rem 15rem 2rem;
     }
-    .technologies, .projects, .about {
+    .projects, .about {
         padding: 10rem 15rem 4rem;
+    }
+    .technologies{
+        padding: 6rem 15rem 6rem;
     }
 }
