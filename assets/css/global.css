@@ -129,12 +129,12 @@
         z-index: 1;
     }
     .card__cover {
-        width: 55%;
-        height: 375px;
+        width: 600px;
+        height: 400px;
     }
     .projects__card.card--reverse {
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: left;
     }
 
     .about {

@@ -293,7 +293,7 @@ main {
     width: 100%;
     border-radius: 0.5rem;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 
 .card__body {
@@ -439,7 +439,7 @@ a{
     -webkit-text-fill-color: transparent;
 }
 #text-spiderman{
-    background: var(--color-spider-animation);
+    background: var(--color-pokedex-animation);
     background-size: 200% 100%;
     animation: degrade 5s ease-in-out infinite;
     -webkit-background-clip: text;
